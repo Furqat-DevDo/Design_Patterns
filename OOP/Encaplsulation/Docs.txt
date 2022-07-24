@@ -1,0 +1,8 @@
+interface—a public part of an object, open to interactions
+with other objects.
+
+Encapsulation is the ability of an object to hide parts of its
+state and behaviors from other objects, exposing only a limited interface to the rest of the program.
+
+To encapsulate something means to make it private , and
+thus accessible only from within the methods of its own class.
