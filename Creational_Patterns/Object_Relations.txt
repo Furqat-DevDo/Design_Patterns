@@ -1,0 +1,25 @@
+Bog'liqlik B klassdagi o'zgarish A klassga ta'sir qiladi.
+• Dependency: Class А can be affected by changes in class B.
+
+sheriklik, bog'liqlik A klass B klassni biladi va unga bog'liq.
+• Association: Object А knows about object B. Class A depends
+on B.
+
+Yig'ilish bir-biriga bog'lanish.A klass B klassni biladi va undan tashkil topadi .A klass B ga bog'liq.
+• Aggregation: Object А knows about object B, and consists of B.
+Class A depends on B.
+
+Kompozitsya A klass B ni biladi, B dan tashkil topgan,va B ni boshqaradi.
+• Composition: Object А knows about object B, consists of B, and
+manages B’s life cycle. Class A depends on B.
+
+Amalga oshirish:A klass B klassda e'lon qilingan interfeyslarni amalga oshiradi va o'zgartiradi.
+A klass B klassga bog'liq.
+• Implementation: Class А defines methods declared in interface
+B. Objects A can be treated as B. Class A depends on B.
+
+MerosXo'rlik:A klass B klassning interfeys va implementatsiyalarini meros oladi.
+Ularni o'zgartirishi mumkun,A klass B klassni o'rnini olishi mumkun.A klass B ga bog'liq.
+• Inheritance: Class А inherits interface and implementation of
+class B but can extend it. Objects A can be treated as B. Class
+A depends on B.
