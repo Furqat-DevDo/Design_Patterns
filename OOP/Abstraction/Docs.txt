@@ -1,0 +1,8 @@
+Abstraction is a model of a real-world object or phenomenon,
+limited to a specific context, 
+which represents all details relevant to this context with high accuracy and omits all the rest.
+
+Objects in an OOP language provide an abstraction that hides the internal implementation details. 
+Similar to the coffee machine in your kitchen, 
+you just need to know which methods of the object are available to call and 
+which input parameters are needed to trigger a specific operation.
