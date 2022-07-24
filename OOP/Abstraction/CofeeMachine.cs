@@ -1,6 +1,6 @@
 namespace Abstraction;
 
-public class CoffeeMachine
+public static class CoffeeMachine
 {
     public static async Task BoilWaterAsync()
     {

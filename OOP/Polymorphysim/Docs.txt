@@ -1,0 +1,38 @@
+Polymorphism is one of the core concepts of object-oriented programming (OOP) and 
+describes situations in which something occurs in several different forms.
+In computer science, it describes the concept that you can 
+access objects of different types through the same interface. 
+Each type can provide its own independent implementation of this interface.
+
+Polymorphism is the ability of a program to detect the real
+class of an object and call its implementation even when its
+real type is unknown in the current context.
+
+There are two types of polymorphism as below:
+
+Static Binding (or Compile time) Polymorphism, e.g., Method Overloading
+Dynamic Binding (or Runtime) Polymorphism, e.g., Method overriding
+
+1. Compile Time or Static Polymorphism
+With Method Overloading, static polymorphism is achieved in Object-Oriented Programming languages that allow 
+the programmer to implement various methods. 
+The names they use can be the same, but their parameters are different. 
+Certain conditions are conducive for static polymorphism as below:
+
+      Types of All Parameters should be different.
+      The sequence of the Parameters can be different.
+      The number of parameters of one method should differ from the other method.
+In the static binding polymorphism, the matching type and number of arguments invoke the overloaded functions. 
+
+As all of this information is available during the compile time, the compiler selects the appropriate function. 
+The function overloading does it, and operator overloading is also termed as static binding or early binding.
+
+
+2.In the Dynamic Polymorphism, a call to a single overridden method is solved during a program’s runtime. 
+Method overriding is one of the prominent examples of Runtime Polymorphism. 
+In this process, the overriding is done through pointers and virtual functions.
+
+In Method Overriding, a single method is declared in a sub-class present in a parent class. 
+The child class gains a method for implementation.
+During Runtime Polymorphism, the class offers the specification of its own to another inherited method. 
+This transfer between methods is achieved without modifying the parent class object codes.
