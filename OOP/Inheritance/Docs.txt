@@ -1,0 +1,6 @@
+Inheritance is the ability to build new classes on top of existing ones. 
+The main benefit of inheritance is code reuse. 
+If you want to create a class that’s slightly different from an existing
+one, there’s no need to duplicate code.
+Instead, you extend the existing class and put the extra functionality into a resulting
+subclass, which inherits fields and methods of the superclass.
