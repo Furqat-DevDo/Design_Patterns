@@ -1,15 +1,16 @@
 ﻿using Abstraction;
 using Encaplsulation;
 using Inheritance;
-
-public class Program
+using Polymorphysim;
+namespace OOP;
+public static  class Program
 {
     public static void Main(string[] args)
-    { 
+    {
         /// <summary>
         /// Abstraction with CoffeeMachine Example
         /// </summary>
-    
+
         // var coffee = new Coffee(1.5, "Espresso", CoffeeType.Espresso);
         // CoffeeMachine.MakeCoffeeAsync(coffee).Wait();
 
@@ -29,16 +30,25 @@ public class Program
         /// Inheritance with Cat,Horse Example
         /// </summary>
 
-        var cat = new Cat();
-        var horse = new Horse();
-        cat.Sound();
-        cat.Eat();
-        cat.Sleep();
-        cat.Move();
-        horse.Sound();
-        horse.Eat();
-        horse.Sleep();
-        horse.Move();
+        // var cat = new Cat();
+        // var horse = new Horse();
+        // cat.Sound();
+        // cat.Eat();
+        // cat.Sleep();
+        // cat.Move();
+        // horse.Sound();
+        // horse.Eat();
+        // horse.Sleep();
+        // horse.Move();
 
+        /// <summary>
+        /// Polymorphism with Employee,Developer,Manager Example
+        /// </summary>
+        var employee = new Employee();
+        employee.DoWork();
+        employee = new Developer();
+        employee.DoWork();
+        employee = new Manager();
+        employee.DoWork();
     }
 }

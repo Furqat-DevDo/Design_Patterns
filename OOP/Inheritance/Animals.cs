@@ -2,10 +2,10 @@ namespace Inheritance
 {
     class Animals
     {
-        public string Name { get; set; }
+        public string? Name { get; set; }
         public double Weight { get; set; }
         public int Age { get; set; }
-        public string Color { get; set; }
+        public string? Color { get; set; }
         public virtual void Sound()
         {
             Console.WriteLine("Animal is making sound");
