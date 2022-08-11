@@ -1,0 +1,6 @@
+1 step add to class single private field which will hold an sinlge object.
+2. step make static method which will create an object and return it.
+3. step make getter method which will return the object.
+4. step make setter method which will set the object.
+5. make constructor private.
+6. client code should to create an object using static method.
